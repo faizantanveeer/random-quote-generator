@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+  display: flex;
+  flex-direction: column;
+  gap: 10vh;
+}
+
+.heading {
+  color: white;
+  font-weight: bold;
+}
+
+.author {
+  color: #1fa3ff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.white_back {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+  height: 60vh;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 30px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  position: relative;
+}
+
+.content-div {
+  position: sticky;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  color: black;
+  font: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button {
+  background-color: #1fa2ff;
+  position: absolute;
+  bottom: 0;
+  outline: none;
+  border: none;
+  width: 10rem;
+  margin-right: 10%;
+  padding: 10px 15px;
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, sans-serif;
+  border-radius: 20px;
+}
+
+.button:hover {
+  background-color: #0999ff;
+  outline: none;
+  border: none;
+}
+
+.btn-holder {
+  justify-content: right;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer p {
+  color: white;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 18px;
+}
